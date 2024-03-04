@@ -10,6 +10,7 @@ function CityList() {
     return (
       <Message message="Add your first city by clicking on a city on the map" />
     );
+  console.log(cities.map((city) => city.id));
   return (
     <ul className={styles.cityList}>
       {cities.map((city) => (
