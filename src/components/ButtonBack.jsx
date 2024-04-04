@@ -4,9 +4,9 @@ function ButtonBack() {
   const navigate = useNavigate();
   return (
     <button
-      onClick={(e) => {
-        e.preventDefault();
+      onClick={() => {
         navigate(-1);
+        console.log("ButtonBack clicked");
       }}
       className={`${styles.back} ${styles.btn}`}
     >
