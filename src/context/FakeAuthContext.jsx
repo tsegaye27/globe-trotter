@@ -19,8 +19,8 @@ function reducer(state, action) {
 }
 
 const FAKE_USER = {
-  name: "Jack",
-  email: "jack@example.com",
+  name: "Tsegaye",
+  email: "tsegaye@example.com",
   password: "qwerty",
   avatar: "https://i.pravatar.cc/100?u=zz",
 };
@@ -28,7 +28,7 @@ const FAKE_USER = {
 function AuthProvider({ children }) {
   const [{ user, isAuthenticated }, dispatch] = useReducer(
     reducer,
-    initialState
+    initialState,
   );
   function login(email, password) {
     if (email === FAKE_USER.email && password === FAKE_USER.password) {

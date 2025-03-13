@@ -19,7 +19,9 @@ export default function App() {
   return (
     <AuthProvider>
       <CitiesProvider>
-        <BrowserRouter>
+        <BrowserRouter
+          future={{ v7_startTransition: true, v7_relativeSplatPath: true }}
+        >
           <Routes>
             <Route index element={<Homepage />} />
             <Route path="pricing" element={<Pricing />} />

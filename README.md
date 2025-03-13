@@ -1,8 +1,27 @@
-# React + Vite
+### **GlobeTrotter - Explore the World** 🌍  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![GlobeTrotter Screenshot](./GlobeTrotter.png)
 
-Currently, two official plugins are available:
+**Description**  
+GlobeTrotter is an interactive React application where users can explore a dynamic map, mark locations, and leave insights about different places. Perfect for travelers and explorers!  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Features**  
+✅ Interactive world map  
+✅ Add and manage location markers  
+✅ Leave comments and insights on places  
+✅ User-friendly UI for seamless navigation  
+
+**Tech Stack**  
+- React.js  
+- Leaflet.js for maps  
+- Local Storage for state persistence  
+
+**Installation**  
+```sh
+git clone https://github.com/your-username/globetrotter.git
+cd globetrotter
+npm install
+npm run dev
+```
+
+---
